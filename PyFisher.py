@@ -38,7 +38,7 @@ class autoFisher():
         If there is not one detected, it's presumed to be dragged down by a fish, so a reel action is executed.
         """ 
         while True:  
-            if pyautogui.locateOnScreen('bobber.png',
+            if pyautogui.locateOnScreen('data/bobber.png',
                                         confidence = self.confidence,
                                         region = self.coordinates):
                 self.displayMessage("Awaiting catch")
